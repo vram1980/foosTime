@@ -2,9 +2,8 @@
 
 angular.module('foosTimeApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
+    $scope.technologies = [
       'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+      'AngularJS'
     ];
   });
